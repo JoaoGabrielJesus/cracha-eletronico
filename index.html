@@ -1,8 +1,10 @@
-<!-- comentário -->
 <!DOCTYPE html>
 
-<html>
+<html lang="pt_BR">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Joao Gabriel - NLW Heat</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -21,18 +23,22 @@
           <span>
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
-          <img src="images/fotopessoal.png" alt="Foto pessoal" />
+          <img src="images/fotopessoal.png" alt="Foto pessoal" id="UserImage" />
         </div>
-        <h1>João Gabriel</h1>
-        <a href="https://github.com/JoaoGabrielJesus" target="_blank">
+        <h1 id="userName">João Gabriel</h1>
+        <a
+          id="userLink"
+          href="https://github.com/JoaoGabrielJesus"
+          target="_blank"
+        >
           <img src="images/github.svg" alt="ícone github" />
-          joaogabriel</a
+          <span id="userLogin">joaogabriel</span></a
         >
 
-        <p>Front-end Developer</p>
+        <p id="userBio">Front-end Developer</p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a
               href="https://www.youtube.com/channel/UCW1hE3JeoqQiM3MS7sqYBvw"
               target="_blank"
@@ -40,7 +46,7 @@
               <img src="images/youtube.svg" alt="ícone youtube" />
             </a>
           </li>
-          <li>
+          <li class="facebook">
             <a
               href="https://www.facebook.com/joaogabriel.jesus.31"
               target="_blank"
@@ -48,7 +54,7 @@
               <img src="images/facebook.svg" alt="ícone facebook" />
             </a>
           </li>
-          <li>
+          <li class="instagram">
             <a
               href="https://www.instagram.com/joaogabrieljesus/"
               target="_blank"
@@ -56,15 +62,10 @@
               <img src="images/instagram.svg" alt="ícone instagram" />
             </a>
           </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank">
-              <img src="images/twitter.svg" alt="ícone twitter" />
-            </a>
-          </li>
         </ul>
       </div>
     </main>
 
-    <script></script>
+    <script src="main.js"></script>
   </body>
 </html>
